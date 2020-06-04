@@ -6,6 +6,7 @@ if (browser.indexOf('firefox') > -1) {
     el=document.createElement('meta');
     el.setAttribute('content',desktopvp);
     el.setAttribute('name','viewport');
+   document.getElementsByTagName("head")[0].appendChild(el);
 }
 
 
